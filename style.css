@@ -1,0 +1,226 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color:#e6e6e6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    background: url('/images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero-section .cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-section,
+.products-section,
+.portfolio-section,
+.blog-section,
+.careers-section,
+.contact-section {
+    padding: 40px 10px;
+    background-color: #fff;
+}
+
+.about-section h2,
+.products-section h2,
+.portfolio-section h2,
+.blog-section h2,
+.careers-section h2,
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.product-list,
+.portfolio-gallery,
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item,
+.portfolio-item,
+.blog-post {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item img,
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    margin-bottom: 10px;
+}
+
+.blog-post a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.careers-section .cta-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-media a:hover {
+    color: #ff6600;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .product-item,
+    .portfolio-item,
+    .blog-post {
+        width: 100%;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2em;
+    }
+
+    .hero-section p {
+        font-size: 1em;
+    }
+}
+
+/* Media Section */
+.media-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.media-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Video Container */
+.video-container {
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Audio Container */
+.audio-container {
+    margin-top: 20px;
+}
+
+.audio-container audio {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

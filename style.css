@@ -1,4 +1,3 @@
-/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +41,7 @@ header nav ul li a {
 
 .hero-section {
     background: url('/images/hero-bg.jpg') no-repeat center center/cover;
-    color: #fff;
+    color:black;
     text-align: center;
     padding: 100px 20px;
 }
@@ -69,9 +68,8 @@ header nav ul li a {
 .about-section,
 .products-section,
 .portfolio-section,
-.blog-section,
-.careers-section,
-.contact-section {
+.blog-section
+ {
     padding: 40px 10px;
     background-color: #fff;
 }
@@ -79,9 +77,8 @@ header nav ul li a {
 .about-section h2,
 .products-section h2,
 .portfolio-section h2,
-.blog-section h2,
-.careers-section h2,
-.contact-section h2 {
+.blog-section h2
+ {
     text-align: center;
     margin-bottom: 40px;
     font-size: 2em;
@@ -127,18 +124,6 @@ header nav ul li a {
 .blog-post a {
     color: #ff6600;
     text-decoration: none;
-}
-
-.careers-section .cta-button {
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-    background-color: #ff6600;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
 }
 
 footer {
